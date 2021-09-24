@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+    align-items: center;
+}
+.sign-in{
+    padding: 10px 20px;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+}
+.details{
+    padding: 10px 3px;
+    background-color:green;
+    border-radius: 5px;
+    color: white;
+}
+.header-main{
+    background-color: #eee;
+    height: 200px;
+    padding: 40px 80px;
+ 
+}
+.left{
+    width: 70%;
+    border: 1px solid green;
+}
+.right{
+    width: 30%;
+    border: 1px solid red;
+}
+.main{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    padding: 20px 40px;
+}
+.js-config{
+    padding: 10px 30px;
+}
+#card-container{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-gap: 20px;
+padding: 10px 20px;
+}
+#personal-training,#recent-vedio{
+    margin: 10px 20px;
+    padding: 10px 5px;
+    border: 2px solid grey;
+
+}
